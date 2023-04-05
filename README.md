@@ -19,6 +19,9 @@ The project is analysis bike rental data of diferent cities interactively with t
 * user_info.py
 * raw_data_view.py
 
+### End User inputs
+End User is not case sensitive but will give an error if the input is mis-spelled.
+
 ### Credits
 This Repo has been forked from [Udacity](https://github.com/udacity/pdsnd_github/) created by Sudhanshu Kulshrestha.
 Advices on how to create a proper readme has been thankfully found on [LinkedIn](https://www.linkedin.com/pulse/dont-forget-give-credit-in-case-you-using-someones-github-sundaray) created by Bikash Kumar Sundaray.
