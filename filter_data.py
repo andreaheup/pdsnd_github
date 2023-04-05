@@ -41,7 +41,7 @@ def load_data(city, month, day):
     df['trip_day_of_week'] = df['Start Time'].dt.weekday_name
     
 
-    # filter by month if applicable
+    # filter by month - if applicable
     if month != 'all':
         # use the index of the months list to get the corresponding int
         months = ['january', 'february', 'march', 'april', 'may', 'june']
