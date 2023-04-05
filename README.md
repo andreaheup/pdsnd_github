@@ -19,6 +19,9 @@ The project is analysis bike rental data of diferent cities interactively with t
 * user_info.py
 * raw_data_view.py
 
+### Execution of project
+The file main_script_v1.1.py has to be executed by any Pathon interpreter.
+
 ### End User inputs
 End User is not case sensitive but will give an error if the input is mis-spelled.
 
