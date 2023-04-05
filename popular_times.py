@@ -13,7 +13,7 @@ pd.set_option('display.width', 1000)
 
 def popular_times(df):
     """
-    analysis in a given dataframe with certain column structure most common trip month/day of week/ start hour
+    analyses in a given dataframe with certain column structure most common trip month/day of week/ start hour
     
     Returns:
         a tuple with 3 entries (most common month, day, hour)
