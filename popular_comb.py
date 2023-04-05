@@ -19,7 +19,7 @@ x = df.groupby(['Start Station', 'End Station'])
 # find max value index in size of each groupby groups
 popular_comb = x.size().idxmax()
 
-# find size of max comb
+# find size of max. comb
 popular_comb_count = x.size()[popular_comb]
 
 print(popular_comb[0], popular_comb[1])
