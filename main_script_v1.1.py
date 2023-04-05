@@ -91,7 +91,7 @@ while restart == 'y':
         recent_by = ui.recent_by(df)
         most_common_by = ui.most_common_by(df)
     
-    # Print result 
+    # Print results 
     print('\n\nHere comes the statistics for bike rentals in {}, filtered by months {} and weekday {}.'.format(city.title(),month.title(), day.title()))
         
     print('\n#1 Popular times of travel')
